@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import "../css/styles.css";
 import AddAppointment from "./AddAppointments";
+import ListAppointment from "./ListAppointment";
 
 const App: FC = () => {
   return (
@@ -13,7 +14,7 @@ const App: FC = () => {
                 <AddAppointment />
               </div>
               <div>Search Appointments</div>
-              <div>List Appointments</div>
+              <ListAppointment />
             </div>
           </div>
         </div>
